@@ -10,7 +10,6 @@ public class BaseTest implements Constantes {
 
     @BeforeClass
     public static void setup() {
-        System.out.println("Passou aqui");
         RestAssured.baseURI = URL_BASE;
         RestAssured.port = APP_PORT;
         RestAssured.basePath = APP_BASE_PATH;
